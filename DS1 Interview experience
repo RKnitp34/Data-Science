@@ -1,0 +1,55 @@
+Data science interview questions - 4:
+
+Appeared for this interview 1 yr back.
+Position : Data Scientist
+There were 3 rounds of interview followed by 1 HR discussion.
+
+Coding related questions :
+
+1. You are given 2 lists 
+l1 = [1,2,2,3,4,5,6,6,7]
+l2= [1,2,4,5,5,6,6,7]
+Return all the elements from list l2 which were spotted in l1 as per their frequency of occurence.
+For eg: elements in l2 which occured in l1 are : 1, 2 (only once) ,4 ,5,6 ,7
+Expected Output : [1,2,4,5,6,6,7]
+
+2. 
+text = ' I am a data scientist working in Paypal'
+Return the longest word along with count of letters
+Expected Output : ('scientist', 9)
+(In case of ties , sort the words in alphabetical order and return 1st one)
+ 
+3. You are given 2 tables in SQL , table 1 contains one column which has only single value '3' repeated 5 times , table 2 contains only one column which has 2 values ,'2' repeated 3 times & '3' repeated 4 times. Tell me number of records in case of inner . left , right ,outer , cross join.
+
+4. You are given a transaction table which has txn_id (primary key) ,cust_id (foreign key) , txn_date (datetime) , txn_amt as 4 columns , one cust id has multiple txn_ids. Your job is to find out all the cust_id for which there were minimum 2 txns which are made in 10 seconds of duration. (This might help to identify fraudulent patterns)
+
+Case study questions :
+1. Tell me business model and revneue sources of Paypal.
+Tell me general consequences when you change pricing of any product.
+
+2. You are data scientist who studies impact of pricing change. Suppose business team comes to you and asks you what will happen if they increase the merchant fees per txn by 5%.
+What will be your recommendation & strategy ? 
+What all factors will you think of and what will be the proposed ML solutioning look like ?
+
+3. You see that some merchants are heavily misusing the refund facility (for incorrect txn /disputed txn merchants get refund) , they are claiming reimbursements by doing fake txns.
+List possible scenarios and ways to identify such merchants ?
+
+4. How will you decide pricing of a premier product like Iphone in India vs say South Africa ? What factors will you consider ?
+
+Statistics Questions:
+1. What is multicollinearity ?
+2. What is Type1 error and type 2 error (explain in pricing experimentation pov) 
+3. What is Weibull distribution ?
+4. What is CLT ? What is difference between t & normal distribution.
+5. What is Wald's test ?
+6. What is Ljung box test and explain null hypothesis for ADF test in Time series
+7. What is causality ?
+
+ML Questions:
+1. What is logistic regression ? What is deviance ?
+2. What is difference between R-Squared & Adj R-squared
+3. How does Randomforest works ?
+4. Difference between bagging and boosting ? 
+On paradigm of Variance -Bias what does bagging/boosting attempt to solve ? 
+
+Hope this helps. DM in case of doubts.
